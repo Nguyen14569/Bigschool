@@ -6,7 +6,9 @@
     @Html.AntiForgeryToken()
 
     <ul class="nav navbar-nav navbar-right">
-        <li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toogle" data-toogle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">@User.Identity.GetUserName()
+            <span></span> </a>
             @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
         </li>
         <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>

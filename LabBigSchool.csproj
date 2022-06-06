@@ -175,17 +175,17 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202205300148266_InitialModel.cs" />
-    <Compile Include="Migrations\202205300148266_InitialModel.designer.cs">
-      <DependentUpon>202205300148266_InitialModel.cs</DependentUpon>
+    <Compile Include="Migrations\202206060214243_IntialModel.cs" />
+    <Compile Include="Migrations\202206060214243_IntialModel.designer.cs">
+      <DependentUpon>202206060214243_IntialModel.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202205300215079_CreateTableCourse.cs" />
-    <Compile Include="Migrations\202205300215079_CreateTableCourse.designer.cs">
-      <DependentUpon>202205300215079_CreateTableCourse.cs</DependentUpon>
+    <Compile Include="Migrations\202206060215348_CreateTableCourse.cs" />
+    <Compile Include="Migrations\202206060215348_CreateTableCourse.designer.cs">
+      <DependentUpon>202206060215348_CreateTableCourse.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202205300216432_PopulateCategoryTable.cs" />
-    <Compile Include="Migrations\202205300216432_PopulateCategoryTable.designer.cs">
-      <DependentUpon>202205300216432_PopulateCategoryTable.cs</DependentUpon>
+    <Compile Include="Migrations\202206060216338_PopulateCategoryTable.cs" />
+    <Compile Include="Migrations\202206060216338_PopulateCategoryTable.designer.cs">
+      <DependentUpon>202206060216338_PopulateCategoryTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -197,6 +197,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\CourseViewModel.cs" />
+    <Compile Include="ViewModels\FunitureDate.cs" />
+    <Compile Include="ViewModels\ValidTime.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -274,14 +276,14 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202205300148266_InitialModel.resx">
-      <DependentUpon>202205300148266_InitialModel.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202206060214243_IntialModel.resx">
+      <DependentUpon>202206060214243_IntialModel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202205300215079_CreateTableCourse.resx">
-      <DependentUpon>202205300215079_CreateTableCourse.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202206060215348_CreateTableCourse.resx">
+      <DependentUpon>202206060215348_CreateTableCourse.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202205300216432_PopulateCategoryTable.resx">
-      <DependentUpon>202205300216432_PopulateCategoryTable.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202206060216338_PopulateCategoryTable.resx">
+      <DependentUpon>202206060216338_PopulateCategoryTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
